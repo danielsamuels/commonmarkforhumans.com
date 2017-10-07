@@ -13,6 +13,8 @@ The [CommonMark](http://spec.commonmark.org/0.28/) is a little complicated to di
 
 It's worth remembering that anywhere that allows you to use CommonMark can usually allow you to use basic HTML as well, so you may not need to use this guide!
 
+**Table of Contents**
+
 * Table of Contents
 {:toc}
 
