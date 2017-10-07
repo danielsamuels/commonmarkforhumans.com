@@ -7,7 +7,7 @@ The [CommonMark](http://spec.commonmark.org/0.28/) is a little complicated to di
 
 It's worth remembering that anywhere that allows you to use CommonMark can usually allow you to use basic HTML as well, so you may not need to use this guide!
 
-# Headers
+### Headers
 
 You must have a space between the hash and the text for the heading to appear.
 
@@ -30,7 +30,8 @@ This is a <h2> tag
 ------------------
 ```
 
-# Text manipulation
+
+### Text manipulation
 
 ```md
 *This text will be italic*
@@ -42,9 +43,10 @@ __This will also be bold__
 _You **can** combine them_
 ```
 
-# Lists
 
-## Unordered
+### Lists
+
+#### Unordered
 
 ```md
 * Item 1
@@ -53,7 +55,7 @@ _You **can** combine them_
   * Item 2b
 ```
 
-## Ordered
+#### Ordered
 
 ```md
 1. Item 1
@@ -63,14 +65,16 @@ _You **can** combine them_
    1. Item 3b
 ```
 
-# Images
+
+### Images
 
 ```md
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
 ```
 
-# Links
+
+### Links
 
 ```md
 http://github.com - automatic!
@@ -86,7 +90,8 @@ The user guide[1] states that you *must* use a password[2].
 [2]: /user-guide/#passwords-required
 ```
 
-# Blockquotes
+
+### Blockquotes
 
 ```md
 As Kanye West said:
@@ -95,7 +100,8 @@ As Kanye West said:
 > the present is our past.
 ```
 
-# Horizontal rules
+
+### Horizontal rules
 
 ```md
 ***
@@ -104,13 +110,15 @@ As Kanye West said:
 - - -
 ```
 
-# Inline code
+
+### Inline code
 
 ```md
 I think you should use an `<addr>` element here instead.
 ```
 
-# Code blocks
+
+### Code blocks
 
 ~~~md
 ```
