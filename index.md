@@ -3,9 +3,18 @@ title: CommonMark for Humans
 permalink: /
 ---
 
+<style>
+h3:not(:first-of-type) {
+    margin-top: 36px;
+}
+</style>
+
 The [CommonMark](http://spec.commonmark.org/0.28/) is a little complicated to digest, and the often referenced [Github guide](https://guides.github.com/features/mastering-markdown/) (which this page contains parts of) has snippets which only apply to GitHub.  This page is a simple reference guide showing you how to complete the most common tasks.
 
 It's worth remembering that anywhere that allows you to use CommonMark can usually allow you to use basic HTML as well, so you may not need to use this guide!
+
+* Table of Contents
+{:toc}
 
 ### Headers
 
@@ -55,7 +64,7 @@ _You **can** combine them_
   * Item 2b
 ```
 
-#### Ordered
+#### Ordered
 
 ```md
 1. Item 1
